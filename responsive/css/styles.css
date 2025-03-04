@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
+    background-color: #e07373;
     color: white;
 }
 
 header {
-    background-color: #1e1e1e;
+    background-color: #3483dd;
     padding: 10px 0;
     text-align: center;
 }
@@ -45,12 +45,33 @@ section img {
 }
 
 footer {
-    background-color: #1e1e1e;
+    background-color: #d6c637;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
 }
-/* Global Styles */
+/*Global Styles*/
+
+body {
+    background-color: #eb4d4d; ;
+    color: #000;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#container {
+    width: 90%;
+    margin: 20px auto;
+    border: 4px solid #110f08;
+    border-radius: 10px;
+    
+}
+
+
+/* Mobile Styles */
 @media (min-width: 320px) {
     body {
     font-family: Arial, sans-serif;
