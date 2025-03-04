@@ -50,8 +50,9 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
-/* General Styling */
-body {
+/* Global Styles */
+@media (min-width: 320px) {
+    body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -89,39 +90,94 @@ img {
     height: auto;
     border-radius: 8px;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
+}
+/* Tablet Styles */
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+      
     }
 
-    nav ul li {
+    nav li a {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
         margin: 10px 0;
     }
 
-    main {
+    .movie_post{
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 3px 3px 3px #ad975a;
         padding: 10px;
+    }
+    h1,h2,h3 { 
+        text-align: center;
+        color: #6c85b4; 
+        text-shadow: 1px 1px 1px #000;
+       
+    }  
+    footer {      
+        text-align: center;
+        padding: 10px 0;   
+
     }
 }
 
-@media (max-width: 480px) {
-    h1 {
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px solid #110f08;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    nav {
+        margin-top: 0;
+        padding: 2px;
+    }
+
+    nav li a {
+        background-color: cornflowerblue;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi-column {
+        display: flex;
+        
+    }
+
+    .col {
+        margin: 20px;
+        border: 2px solid #110f08;
+        padding: 10px;
+    }
+
+    nav li a:hover {
+        color: #f4b400;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
         font-size: 1.5em;
     }
 
-    p {
-        font-size: 1em;
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
     }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        display: block;
+    footer {
+        text-align: center;
+        padding: 10px 0;
     }
 }
