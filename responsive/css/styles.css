@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:"Imbue", serif;
     margin: 0;
     padding: 0;
     background-color: #e07373;
@@ -38,14 +38,14 @@ main {
 }
 
 section img {
-    width: 80%;
+    width: 75%;
     max-width: 600px;
     border-radius: 10px;
     margin-top: 10px;
 }
 
 footer {
-    background-color: #d6c637;
+    background-color: #9e3c41;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -78,12 +78,12 @@ img {
     margin: 0;
     padding: 0;
     background-color: #3d5194;
-    color: white;
+    color: rgb(82, 153, 93);
     text-align: center;
 }
 
 header {
-    background: #222;
+    background: #9e2b2b;
     padding: 15px;
 }
 
@@ -94,7 +94,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
@@ -134,8 +134,9 @@ img {
     }
     h1,h2,h3 { 
         text-align: center;
-        color: #6c85b4; 
+        color: #6cb470; 
         text-shadow: 1px 1px 1px #000;
+        font-family: "Dancing Script", cursive;
        
     }  
     footer {      
@@ -155,7 +156,7 @@ img {
         justify-content: space-around;
     }
     nav {
-        margin-top: 0;
+        margin-top: 5px;
         padding: 2px;
     }
 
@@ -192,7 +193,7 @@ img {
     }
 
     img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
         border-radius: 8px;
     }
