@@ -1,32 +1,32 @@
-body{
-    background-color: cornflowerblue; 
+body{background-color: rgb(216, 60, 94); 
       
     }
 
-#container{
-    width: 960px;
-     margin: 20px auto; 
-     background-color: #880c0c; 
-     padding: 10px; 
+
+
+#container{container: rgb(95, 123, 184) ;
+    width: 1200px;
+     margin: 20px auto;      
+     padding: 20px; 
      border: 2px solid #000;
     }
 
     img{
         display: block;
-        margin: 0 auto; 
-        width: 100%;
+        margin: 10px auto; 
+        width: 25%;
         }
 
         nav{
                       
-            margin: 10px 0; 
+            margin: 20px 0; 
             text-align: center;
         }
 
         nav a{
             font: size 24px;
             color: #e2d846;  
-            margin: 0 10px;
+            margin: 0 20px;
             font-weight: bold;  
         }  
            

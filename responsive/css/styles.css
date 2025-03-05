@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e07373;
-    color: white;
+    color: rgb(155, 47, 47);
 }
 
 header {
-    background-color: #3483dd;
-    padding: 10px 0;
+    background-color: #8a2636;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -23,9 +23,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(136, 77, 77);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -53,8 +53,8 @@ footer {
 /*Global Styles*/
 
 body {
-    background-color: #eb4d4d; ;
-    color: #000;
+    background-color: #792f2f; ;
+    color: #5286c2;
 }
 img {
     max-width: 100%;
@@ -77,7 +77,7 @@ img {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #111;
+    background-color: #3d5194;
     color: white;
     text-align: center;
 }
